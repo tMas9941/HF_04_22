@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Shrink</title>
+		<style>
+			body {
+				background-color: gray;
+			}
+			h1 {
+				text-align: center;
+			}
+			div {
+				width: 60%;
+				background-color: whitesmoke;
+				justify-items: center;
+				padding: 20px;
+			}
+
+			ul {
+				list-style-type: none;
+				width: auto;
+				display: flex;
+				flex-flow: row wrap;
+				justify-items: space-between;
+				align-items: center;
+				padding: 0px;
+			}
+
+			li {
+				background-color: rgb(127, 170, 255);
+				flex: 1 1 50px;
+				margin: 10px;
+				text-align: center;
+			}
+			li:last-of-type {
+				flex: 1 0 fit-content;
+			}
+		</style>
+	</head>
+	<body>
+		<div>
+			<h1>Shrink</h1>
+
+			<ul>
+				<li>
+					<p>1</p>
+				</li>
+				<li>
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
+						harum, perferendis maiores similique reprehenderit iste doloremque
+						dicta voluptatibus ipsam, molestias saepe quasi itaque temporibus
+						facere consequuntur vel enim? Minima, quo?
+					</p>
+				</li>
+				<li>
+					<p>3</p>
+				</li>
+				<li>
+					<p>Lorem ipsum dolor sit amet consectetur.</p>
+				</li>
+			</ul>
+		</div>
+	</body>
+</html>
